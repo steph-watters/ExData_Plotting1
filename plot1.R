@@ -19,10 +19,6 @@ dataset$Time <- strptime(dataset$timechange, format = "%Y-%m-%d %H:%M:%S")
 dataset$timechange <- NULL
 
 ## Create a PNG file
-png(filename = "plot2.png", width = 480, height = 480, units = "px", 
-    pointsize = 12, bg = "transparent", res = NA, type = "quartz")
-
-## Create a PNG file
 png(filename = "plot1.png", width = 480, height = 480, units = "px", 
     pointsize = 12, bg = "transparent", res = NA, type = "quartz")
 
